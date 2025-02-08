@@ -1,0 +1,142 @@
+body {
+    font-family: "Times New Roman";
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    max-width: 1200px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+.item{
+    text-align: left;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: -10px;
+}
+
+table {
+ margin-left: 1em;
+ margin-right: 1em;
+}
+
+.year-column{
+    min-width: 6em;
+}
+
+.buttons {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    /* margin-left: 5%;
+    margin-right: 5%;*/
+    font-size: 28px;
+    margin: 0 auto 0 auto;
+    font-weight: bold;
+    width: 80%;
+    border: none;
+}
+
+hr {
+    width: 80%; 
+    margin-bottom: 3em;
+}
+
+.first-button {
+    text-align: center;
+    border: none;
+    color: lightgray;
+    min-width: 4em;
+}
+
+.second-button {
+    text-align: center;
+    border: none;
+    color: lightgray;
+    min-width: 4em;    
+}
+
+.third-button{
+    text-align: center;
+    border: none;
+    color: lightgray;
+    min-width: 4em;
+}
+
+
+
+.reference-button {
+    color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.reference-button-inserted {
+    color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.personal {
+    display: flex;
+}
+
+.my-photo {
+    width: 35%;
+    padding: 0;
+    text-align: left;
+}
+
+.my-photo img {
+    width: min(400px, 25vw);
+    padding-right: 2em;
+}
+
+@media screen and (max-width: 800px) {
+    .personal {
+        flex-direction: column;
+    }
+    .my-photo {
+        text-align: center;
+        width:100%;
+    }
+    .my-photo img {
+        width: min(50vw, 500px);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    .first-button {
+        min-width: 0;
+        padding-right: 0.5em;
+        font-size: 22px;
+    }
+    
+    .second-button {
+        min-width: 0;
+        font-size: 22px;
+    }
+    .third-button{
+        min-width: 0;
+        padding-left: 0.5em;
+        font-size: 22px;
+    }
+}
+
+my-info {
+    width: 55%;
+}
+
+.publications {
+    width: 100%;
+}
+
+.publications td {
+    vertical-align: top;
+}
