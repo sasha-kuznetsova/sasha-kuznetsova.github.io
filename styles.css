@@ -25,7 +25,12 @@ h4 {
     font-size: 21px;
 }
 
-
+.warning {
+    text-align: center;
+    font-size: 21px;
+    color: red;
+    font-weight: bold;
+}
 
 .item{
     text-align: left;
